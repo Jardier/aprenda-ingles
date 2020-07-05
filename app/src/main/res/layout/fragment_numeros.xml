@@ -22,68 +22,71 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.87" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="120dp"
+    <ImageButton
+        android:id="@+id/btnUm"
+        android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginTop="24dp"
+        android:background="@drawable/segundo_fundo"
+        android:scaleType="centerCrop"
         android:src="@drawable/um"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="120dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/dois"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="120dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/tres"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="120dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/quatro"
-        app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="120dp"
-        android:layout_height="140dp"
-        android:layout_marginTop="16dp"
-        android:src="@drawable/cinco"
-        app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="120dp"
+    <ImageButton
+        android:id="@+id/btnDois"
+        android:layout_width="140dp"
         android:layout_height="140dp"
         android:layout_marginTop="24dp"
-        android:src="@drawable/seis"
+        android:background="@drawable/segundo_fundo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dois"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/direitos"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageButton
+        android:id="@+id/btnTres"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/segundo_fundo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tres"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnUm" />
+
+    <ImageButton
+        android:id="@+id/btnQuatro"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/segundo_fundo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/quatro"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline3" />
+        app:layout_constraintTop_toBottomOf="@+id/btnDois" />
+
+    <ImageButton
+        android:id="@+id/btnCinco"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/segundo_fundo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cinco"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/btnTres" />
+
+    <ImageButton
+        android:id="@+id/btnSeis"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/segundo_fundo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/seis"
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/btnQuatro"
+        app:srcCompat="@drawable/seis" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
